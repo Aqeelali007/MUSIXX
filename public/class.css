@@ -1,0 +1,24 @@
+.inverted {
+    filter: invert(1);
+}
+
+.logo-size{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.logo-size:hover *{
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.control-logo{
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+.control-logo:hover{
+    color: rgb(149, 42, 42);
+    transition: color 0.3s ease;
+}
